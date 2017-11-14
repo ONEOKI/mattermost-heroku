@@ -1,7 +1,7 @@
 {
-    "name": "Mattermost Heroku",
+    "name": "Mattermost Heroku (PERSUIT)",
     "description": "Deploy Mattermost to Heroku",
-    "repository": "https://github.com/mozilla/mattermost-heroku",
+    "repository": "https://github.com/ONEOKI/mattermost-heroku",
     "keywords": [
         "mattermost",
         "nginx"
@@ -9,10 +9,10 @@
     "success_url": "/",
     "buildpacks": [
         {
-            "url": "https://github.com/cadecairos/nginx-buildpack.git#v2.0.0"
+            "url": "https://github.com/ONEOKI/nginx-buildpack.git"
         },
         {
-            "url": "http://github.com/mozilla/mattermost-heroku.git#v2.2.0"
+            "url": "https://github.com/ONEOKI/mattermost-heroku.git"
         }
     ],
     "env": {
