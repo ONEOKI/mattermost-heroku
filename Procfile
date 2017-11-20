@@ -1,1 +1,1 @@
-worker: bin/start-nginx ./start.sh
+web: bin/start-nginx ./start.sh
