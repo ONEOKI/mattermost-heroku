@@ -12,7 +12,7 @@
             "url": "https://github.com/ONEOKI/nginx-buildpack.git"
         },
         {
-            "url": "https://github.com/ONEOKI/mattermost-heroku.git#v3.0.1"
+            "url": "https://github.com/ONEOKI/mattermost-heroku.git"
         }
     ],
     "env": {
