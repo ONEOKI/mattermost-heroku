@@ -12,7 +12,7 @@
             "url": "https://github.com/ONEOKI/nginx-buildpack.git"
         },
         {
-            "url": "https://github.com/ONEOKI/mattermost-heroku.git#v3.0.1"
+            "url": "https://github.com/ONEOKI/mattermost-heroku.git#v3.0.4"
         }
     ],
     "env": {
@@ -25,7 +25,7 @@
             "description": "team or enterprise Mattermost"
         },
         "MM_SQLSETTINGS_DRIVERNAME": {
-            "value": "postgres",
+            "value": "mysql",
             "description": "Database driver"
         },
         "MM_SQLSETTINGS_DATASOURCE": {
@@ -138,6 +138,16 @@
         "MM_SQLSETTINGS_MAXOPENCONNS": {
             "value": "10",
             "description": "Maximum number of open connections held open to the database",
+            "required": true
+        },
+        "MM_TEAMSETTINGS_ENABLEOPENSERVER": {
+            "value": "true",
+            "description": "",
+            "required": true
+        },
+        "MM_SERVICESETTINGS_ALLOWCORSFROM": {
+            "value": "*",
+            "description": "",
             "required": true
         }
     }
